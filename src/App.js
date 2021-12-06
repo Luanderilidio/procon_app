@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Inicial from './pages/inicial'
+import Anonymous from './pages/anonimo';
+import Identified from './pages/identificada';
+import ModalPage from './pages/modal';
+import Protocol from './pages/protocolo';
+import Complaint from './pages/reclamacao';
+import Query from './pages/consulta'
+import Scheduling from './pages/agendamento';
+import Legislation from './pages/legislacao';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <Inicial/>  
+    //  <Anonymous/>  
+    // <Identified/>
+    // <ModalPage/>
+    // <Protocol/>
+    // <Complaint/>
+    // <Query/>
+    // <Scheduling/>
+    <Legislation/>
   );
 }
 
