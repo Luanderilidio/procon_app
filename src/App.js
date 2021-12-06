@@ -12,7 +12,7 @@ import Legislation from './pages/legislacao';
 
 function App() {
   return (
-    // <Inicial/>  
+    <Inicial/>  
     //  <Anonymous/>  
     // <Identified/>
     // <ModalPage/>
@@ -20,7 +20,7 @@ function App() {
     // <Complaint/>
     // <Query/>
     // <Scheduling/>
-    <Legislation/>
+    //<Legislation/>
   );
 }
 
